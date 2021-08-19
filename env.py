@@ -1,1 +1,6 @@
-STOCKS_T0_MONITOR=['GME','AMC']
+STOCKS_T0_MONITOR = ['GME', 'AMC', 'AAPL']
+CRYPTOCURRENCIES_TO_MONITOR = ['polycat-finance', 'bitcoin']
+COMPARE_CRYPTOCURRENCIES_AGAINST = 'USD'
+
+COINGECKO_BASE_URL = "https://api.coingecko.com/api/v3/"
+COINGECKO_SIMPLE = COINGECKO_BASE_URL + "simple/price"
