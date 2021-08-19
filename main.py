@@ -1,6 +1,9 @@
-from adapters.stocks.stocks import live_price_update
 from time import sleep
 
+from adapters.stocks.stocks import stocks_price_update
+from pricerr.adapters.cryptocurrencies.cryptocurrencies import cryptocurrencies_price_update
+
 for i in range(100):
-    print(live_price_update())
+    print(stocks_price_update())
+    print(cryptocurrencies_price_update())
     sleep(2)
